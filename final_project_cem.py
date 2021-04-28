@@ -15,11 +15,10 @@ import pandas as pd
 import pydeck as pdk
 import streamlit as st
 import numpy as np
-#import matplotlib
-#import matplotlib.pyplot as plt
-#from matplotlib.backends.backend_agg import RendererAgg
+import matplotlib
+import matplotlib.pyplot as plt
 import final_help
-#from pycountry_convert import country_alpha2_to_continent_code, country_name_to_country_alpha2
+from pycountry_convert import country_alpha2_to_continent_code, country_name_to_country_alpha2
 
 #Data Frame
 #File Dictionary (Key - Name : Values List - [Feet, Year, Type, Main use, Country, City,lat,lon])
