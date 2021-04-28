@@ -13,7 +13,6 @@ Followed by the bar chart, users are allowed to investigate the different type o
 """
 import pandas as pd
 import pydeck as pdk
-import mapbox as mb
 import streamlit as st
 import numpy as np
 import matplotlib
