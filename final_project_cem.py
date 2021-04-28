@@ -16,7 +16,8 @@ import pydeck as pdk
 import streamlit as st
 import numpy as np
 import matplotlib
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
+from matplotlib.backends.backend_agg import RendererAgg
 import datetime as dt
 import final_help
 from pycountry_convert import country_alpha2_to_continent_code, country_name_to_country_alpha2
@@ -88,12 +89,3 @@ type_all_list = list(df.groupby('Type')['Type'].count())
 type_all_list.sort(reverse = True)
 
 st.pyplot(final_help.pie_chart(type_all_list,build_list,build_num))
-
-'''
-def count_build(df, group):
-    cont_list = []
-    for continent in df.groupby(group)['Name'].count():
-        cont_list.append(continent)
-
-    return cont_list
-'''
