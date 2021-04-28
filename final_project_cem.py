@@ -17,7 +17,7 @@ import streamlit as st
 import numpy as np
 #import matplotlib
 #import matplotlib.pyplot as plt
-from matplotlib.backends.backend_agg import RendererAgg
+#from matplotlib.backends.backend_agg import RendererAgg
 import datetime as dt
 import final_help
 from pycountry_convert import country_alpha2_to_continent_code, country_name_to_country_alpha2
