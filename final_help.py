@@ -1,12 +1,9 @@
 import pandas as pd
 import pydeck as pdk
-import mapbox as mb
 import streamlit as st
 import numpy as np
-import matplotlib
-import matplotlib.pyplot as plt
-import datetime as dt
-import final_help
+#import matplotlib
+#import matplotlib.pyplot as plt
 from pycountry_convert import country_alpha2_to_continent_code, country_name_to_country_alpha2
 
 def read_data(fileName):
